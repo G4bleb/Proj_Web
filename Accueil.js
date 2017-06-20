@@ -31,7 +31,7 @@ $(document).ready(function() {
 		timer = setInterval(function(){diapo()}, 2500);
 	});
 
-	
+
 });
 
 function diapo(){
