@@ -14,34 +14,30 @@ $(document).ready(function() {
 	timer = setInterval(function(){diapo()}, 2000);
 
 	$("#sliderbtnleft").click(function(){
-		// clearInterval(timer);
+		clearInterval(timer);
 		$("#slider"+i).fadeOut(fadeTime);
 		i -=1;
 		if (i == 0) i = 4;
-		// $("#slider"+i).fadeIn(fadeTime);
-		// setTimeout(function(){
-		// 	timer = setInterval(function(){diapo()}, 2500);
-		// }, 1000);
+		$("#slider"+i).fadeIn(fadeTime);
+		timer = setInterval(function(){diapo()}, 2500);
 	});
 
 	$("#sliderbtnright").click(function(){
-		// clearInterval(timer);
+		clearInterval(timer);
 		$("#slider"+i).fadeOut(fadeTime);
 		i +=1;
 		if (i == 5) i = 1;
 		$("#slider"+i).fadeIn(fadeTime);
-		// setTimeout(function(){
-		// 	timer = setInterval(function(){diapo()}, 2500);
-		// }, 1000);
+		timer = setInterval(function(){diapo()}, 2500);
 	});
+
+	
 });
 
 function diapo(){
-			$("#slider"+i).fadeOut(400);
-			//$("#slider"+i).hide();
+			$("#slider"+i).fadeOut(fadeTime);
 			i +=1;
 			if (i == 5) i = 1;
-			$("#slider"+i).fadeIn(400);
-			//$("#slider"+i).show();
-			console.log("#slider"+i);
+			$("#slider"+i).fadeIn(fadeTime);
+			//console.log("#slider"+i);
 }
