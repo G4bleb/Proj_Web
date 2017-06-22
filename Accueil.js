@@ -6,6 +6,7 @@ var i;
 var fadeTime = 300;
 var timer;
 $(document).ready(function() {
+	//$(".twitter-timeline").data-height($("news").height());
 	for (i = 2; i <= 4; i++){
 		$("#slider"+i).hide();
 		//console.log("#slider"+i);

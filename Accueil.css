@@ -68,3 +68,27 @@
   display: inline-block;
   float: right;
 }
+
+#comparison{
+  padding: 0;
+  margin-left: 1%;
+  position: relative;
+  list-style-type: none;
+  float: left;
+  list-style-type: none;
+  overflow: visible;
+  width: 100%;
+}
+
+.offer{
+  background-color: #fff;
+  display: inline;
+  width: 30%;
+  float: left;
+  padding: 20px 20px;
+}
+
+.offer hr{
+  width: 30%;
+  margin-left: 0;
+}
