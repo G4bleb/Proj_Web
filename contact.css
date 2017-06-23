@@ -1,0 +1,108 @@
+body{
+    background-color: #ebebeb;
+    font-family: Arial;
+}
+
+p{
+  font-size: 120%;
+}
+
+#assistance{
+  height: auto;
+  width: 850px;
+  border: 25px ;
+  padding: 25px;
+  margin: auto;
+  margin-top : 50px;
+  margin-bottom:  50px;
+  background-color: #FFFFFF;
+}
+
+#contact{
+  height: auto;
+  width: 850px;
+  border: 25px ;
+  padding: 25px;
+  margin: auto;
+  margin-top : 50px;
+  margin-bottom:  50px;
+  background-color: #FFFFFF;
+}
+
+hr{
+    margin-top: -15px;
+    width: 250px;
+    margin-left: 0px;
+}
+
+#aide {
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background-color: #ebebeb;
+}
+
+#aide p{
+  margin-top: 100px;
+}
+#FAQ p{
+  color: #16bbf2;
+  text-decoration: underline;
+}
+
+#FAQ {
+  float: left;
+  margin-left: 40px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  background-color: #ebebeb;
+}
+
+
+#contact p{
+  color: #f01c11;
+}
+#fname{
+    margin-left: 5px;
+    float:left;
+    margin-bottom: 5px;
+}
+#lname{
+    float:left;
+    margin-bottom: 5px;
+}
+#mail{
+  float:left;
+  margin-bottom: 5px;
+}
+#phone{
+  margin-left: 5px;
+  float:left;
+  margin-bottom: 5px;
+}
+#objet{
+  margin-top: 25px;
+  float:left;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+#message{
+  width:800px;
+  height: 150px;
+  text-align: center;
+}
+
+#button{
+    border : none;
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 71%;
+    color: #FFFFFF;
+    background-color: #16bbf2;
+    cursor: pointer;
+}

@@ -50,13 +50,12 @@
   margin-left: 1%
 }
 
-#news h1{
-  font-size: 20px;
+#news h2{
   font-family: Arial;
   margin: 5px 6px;
 }
 #news p{
-  font-size: 16px;
+  font-size: 120%;
   font-family: Arial;
   margin: 11px 11px;
 }
@@ -70,9 +69,9 @@
 }
 
 #comparison{
+  position: relative;
   padding: 0;
   margin-left: 1%;
-  position: relative;
   list-style-type: none;
   float: left;
   list-style-type: none;
@@ -81,14 +80,17 @@
 }
 
 .offer{
+  margin: 5px 5px;
   background-color: #fff;
   display: inline;
-  width: 30%;
+  width: 29%;
   float: left;
   padding: 20px 20px;
+  height: 180px;
 }
 
 .offer hr{
   width: 30%;
   margin-left: 0;
+  margin-top : -10px;
 }

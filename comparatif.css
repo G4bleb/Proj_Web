@@ -1,0 +1,92 @@
+body{
+    background-color: #ebebeb;
+    font-family: Arial;
+}
+
+p{
+  background-color: #ebebeb;
+  font-size: 120%;
+}
+
+#Offres {
+    height: auto;
+    width: 850px;
+    border: 25px ;
+    padding: 25px;
+    margin: auto;
+    margin-top : 50px;
+    margin-bottom:  50px;
+    background-color: #FFFFFF;
+}
+
+#NOffres{
+    text-align: center;
+}
+
+#Free h2{
+  display: inline-block;
+  margin-bottom: 5px;
+  }
+
+#Free hr{
+  width: 250px;
+  margin-left: 0px;
+  margin-top: 0px;
+  }
+
+#LP {
+  margin-top: 10px;
+  float: right;
+  line-height: 0px;
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: #16bbf2;
+}
+
+#Pro h2{
+  display: inline-block;
+  margin-bottom: 5px;
+  }
+
+#Pro hr{
+  width: 250px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#MP {
+  margin-top: 10px;
+  float: right;
+  line-height: 0px;
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: #16bbf2;
+}
+
+#Premium h2{
+  display: inline-block;
+  margin-bottom: 5px;
+  }
+#Premium hr{
+  width: 250px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#HP {
+  margin-top: 10px;
+  float: right;
+  line-height: 0px;
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: #16bbf2;
+}

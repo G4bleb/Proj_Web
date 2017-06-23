@@ -1,10 +1,13 @@
 body{
+  position: relative;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 47px;
   font-family: sans-serif;
   background-color: #ebebeb;
+  color:#292F33;
 }
+
 button:focus {
   outline:0;
 }
@@ -34,7 +37,7 @@ button:focus {
 
 #navbar li a {
   display: block;
-  color: black;
+  color: #292F33;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -94,4 +97,23 @@ button:focus {
   margin-top:4px;
   margin-left: 5px;
   padding: 3px;
+}
+
+#footer{
+  position:relative;
+  bottom:0;
+  width:100%;
+  background-color: #BBBBBB;
+  margin-top : 30px;
+  margin-bottom: 0;
+}
+
+.clear{
+  clear:both;
+}
+#footer a{
+  margin-left: 10px;
+  text-decoration: none;
+  text-decoration: underline;
+  color: white;
 }
