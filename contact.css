@@ -3,6 +3,7 @@ body{
     font-family: Arial;
 }
 
+
 p{
   font-size: 120%;
 }
@@ -13,8 +14,8 @@ p{
   border: 25px ;
   padding: 25px;
   margin: auto;
-  margin-top : 20px;
-  margin-bottom:  20px;
+  margin-top : 50px;
+  margin-bottom:  50px;
   background-color: #FFFFFF;
 }
 
@@ -65,6 +66,9 @@ hr{
 #contact p{
   color: #f01c11;
 }
+#Prenom{
+  margin-left: 80px;
+}
 #fname{
     margin-left: 5px;
     float:left;
@@ -78,22 +82,28 @@ hr{
   float:left;
   margin-bottom: 5px;
 }
+#Telephone{
+  margin-left: 5px;
+}
 #phone{
   margin-left: 5px;
   float:left;
   margin-bottom: 5px;
 }
+
+#object{
+  margin-top: 10px;
+}
 #objet{
-  margin-top: 25px;
+  margin-top: 10px;
   float:left;
   width: 300px;
-  margin-bottom: 5px;
+  margin-bottom:5px;
 }
 
 #message{
   width:800px;
   height: 150px;
-  text-align: center;
 }
 
 #button{
@@ -101,8 +111,17 @@ hr{
     height: 50px;
     width: 200px;
     margin-top: 25px;
-    margin-left: 71%;
+    margin-left:400px;
+    font-size: 120%;
     color: #FFFFFF;
     background-color: #16bbf2;
     cursor: pointer;
+}
+
+label{
+  float: left;
+}
+
+#gender{
+  margin-bottom: 5px;
 }

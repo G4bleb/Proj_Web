@@ -8,10 +8,8 @@
      <link href="style.css" rel="stylesheet" type="text/css"/>
      <script type="text/javascript" src="jquery-3.2.1.js"></script>
      <script type="text/javascript" src="contact.js"></script>
-     <link rel="icon" type="image/png" href="favicon.png"/>
   </head>
   <body>
-
     <!-- DEBUT HEADER -->
     <div id="header">
       <div id="navbar">
@@ -72,16 +70,34 @@
       <h1>Contact</h1>
       <hr>
       <p>* : Champs obligatoires</p>
-      <form action="/action_page.php">
-        <input type="text"  id="lname"name="lname" placeholder="*Nom">
-        <input type="text" id="fname" name="fname" placeholder="*Prénom">
+      <form id="gender">
+      <input type="radio" name="gender" value="Homme" > Homme
+      <input type="radio" name="gender" value="Femme"> Femme
+      <input type="radio" name="gender" value="idk" checked> Non Spécifié
+    </form>
+      <form>
+        <label id="Nom">*Nom :</label>
+        <input type="text"  id="lname" name="lname">
+        <label id="Prenom">*Prénom :</label>
+        <input type="text" id="fname"  name="fname">
         <div class="clear"></div>
-        <input type="text" id="mail" name="mail" placeholder="*Adresse mail">
-        <input type="text" id="phone" name="phone" placeholder="Téléphone">
+        <label id="Email">Adresse email :</label>
+        <input type="text" id="mail" name="mail" >
+        <label id="Telephone">Téléphone :</label>
+        <input type="text" id="phone" name="phone">
         <div class="clear"></div>
-        <input type="text" id="objet" name="objet" placeholder="Objet"><br>
-        <input type="text" id="message" name="message" placeholder="*Message">
-        <input type="submit" id="valider" value="Valider">
+        <label>Type de requète :</label>
+        <select name="cars">
+          <option value="volvo">J'ai des problèmes techniques</option>
+          <option value="saab">J'ai une quesion par rapport à l'achat d'une formation</option>
+          <option value="fiat">Je souhaite modifier ma commande</option>
+          <option value="audi">Je souhaiterai être remboursé sur une de mes commandes</option>
+        </select><br>
+        <label id="object">Objet :</label>
+        <input type="text" id="objet" name="objet" ><br><br>
+        <label id="Texte">Message :</label>
+        <input type="text" id="message" name="message">
+        <input type="submit" id="envoi" value="envoie">
       </form>
     </div>
     <div class="clear"></div>
@@ -89,3 +105,4 @@
       <a href="legal.html">Mentions légales</a>
     </div>
 </body>
+</html>

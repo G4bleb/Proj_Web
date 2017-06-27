@@ -65,6 +65,7 @@
 #twitter{
   margin-top:310px;
   width: 30%;
+  padding: 0;
   margin-right: 3%;
   display: inline-block;
   float: right;
@@ -104,7 +105,6 @@
   font-size: 18px;
   /*margin-left: 24%;*/
   text-align: center;
-  border : none;
   padding: 14px 16px;;
   text-decoration: none;
   color: #FFFFFF;
