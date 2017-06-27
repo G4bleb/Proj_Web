@@ -29,6 +29,13 @@ button:focus {
   background-color: #23A6D7;
 }
 
+#networks li a{
+  padding: 0 !important;
+}
+#networks li a:hover, #networks li{
+  background-color: #BBBBBB ;
+}
+
 #navbar ul {
   position: fixed;
   top: 0;

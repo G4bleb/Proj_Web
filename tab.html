@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <link href="style.css" rel="stylesheet" type="text/css"/>
-  <link href="entreprise.css" rel="stylesheet" type="text/css"/>
+  <link href="recherche.css" rel="stylesheet" type="text/css"/>
   <link rel="icon" type="image/png" href="favicon.png"/>
-  <title>L'entreprise</title>
+  <title>Accueil</title>
 </head>
 <body>
   <div id="header">
@@ -43,20 +43,34 @@
     </div>
   </div>
 
-  <div id="main">
-    <h1>L'entreprise</h1>
-    <hr><br>
-    <div id="resume">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <img id=entreprise src="entreprise.jpg" alt="entreprise">
-    <h1>L'équipe</h1>
-    <hr><br>
-  <div id="team">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <div id=tocenter><a href="#"><button id=detail type="button" name="button">L'équipe en détail</button></a></div>
-  </div>
-  </div>
+  <form action="recherche.php" method="post">
+    <!-- Ici va s'afficher le terme saisi dans le champ recherche
+    si il n'est pas nul -->
+    <input type="text" name="recherche" >
+
+    <input type="submit" value="Submit">
+      </form>
+    <!--
+    	initiation			html	2h	en ligne	free		lien1
+    	formation de base	html	2j	sur site	pro			lien2
+    	formation avancée	html	2j	sur site	pro			lien3
+    	formation expert	html	3j	sur site	premium		lien4
+    -->
+    <table>
+      <tr>
+        <td>initiation</td>
+        <td>html</td>
+        <td>2h</td>
+        <td>online</td>
+        <td>free</td>
+      </tr>
+      <tr>
+        <td>Michelle</td>
+        <td>26 ans</td>
+        <td>États-Unis</td>
+      </tr>
+    </table>
+
 
   <div class="clear"></div>
   <div id="footer">

@@ -1,0 +1,42 @@
+#main{
+  height: auto;
+  width: 850px;
+  border: 25px ;
+  padding: 25px;
+  margin: auto;
+  margin-top : 20px;
+  margin-bottom:  20px;
+  background-color: #FFFFFF;
+}
+h1{
+  margin: 3px;
+}
+hr{
+  width: 50%;
+  float: left;
+}
+
+#resume{
+  text-align: justify;
+  max-width: 58%;
+}
+
+#entreprise{
+  margin-top: -24%;
+  float: right;
+  height: 50%;
+  width: 40%;
+}
+
+#tocenter{
+  text-align: center;
+}
+
+#detail{
+  font-size: 18px;
+  border : none;
+  height: 60px;
+  color: #FFFFFF;
+  background-color: #16bbf2;
+  cursor: pointer;
+}
