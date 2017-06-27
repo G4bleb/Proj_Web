@@ -8,9 +8,6 @@ body{
   color:#292F33;
 }
 
-button:focus {
-  outline:0;
-}
 #navbar ul {
   z-index: 2;
   list-style-type: none;
@@ -44,7 +41,7 @@ button:focus {
 
 #navbar li a {
   display: block;
-  color: #292F33;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

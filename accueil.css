@@ -68,6 +68,8 @@
   margin-right: 3%;
   display: inline-block;
   float: right;
+  height: 600px;
+
 }
 
 #comparison{
@@ -103,8 +105,8 @@
   /*margin-left: 24%;*/
   text-align: center;
   border : none;
-  height: 50px;
-  width: 70px;
+  padding: 14px 16px;;
+  text-decoration: none;
   color: #FFFFFF;
   background-color: #16bbf2;
   cursor: pointer;
