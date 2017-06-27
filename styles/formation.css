@@ -1,0 +1,99 @@
+body{
+    background-color: #ebebeb;
+    font-family: Arial;
+}
+
+
+p{
+  font-size: 120%;
+}
+
+#formation{
+  height: auto;
+  width: 850px;
+  border: 25px ;
+  padding: 25px;
+  margin: auto;
+  margin-top : 50px;
+  margin-bottom:  50px;
+  background-color: #FFFFFF;
+}
+
+#formation h1{
+  text-align: center;
+}
+
+#formation hr{
+  text-align: center;
+}
+
+#sum{
+    margin-left: 5px;
+    height: 60px;
+    width: 800px;
+    background-color: #ebebeb;
+}
+
+#time{
+  margin-left: 50px;
+  display: inline-block;
+}
+
+#time img{
+  display: inline-block;
+}
+
+#time p{
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#price{
+  margin-top: 10px;
+  display: inline-block;
+  margin-left: 300px;
+}
+
+#price img{
+
+  display: inline-block;
+}
+
+#price p{
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#auteur{
+  height: auto;
+  width: 800px;
+  border: 25px ;
+  padding: 25px;
+  margin: auto;
+  margin-top : 50px;
+  margin-bottom:  50px;
+  background-color: #ebebeb;;
+}
+
+#descriptif{
+  height: auto;
+  width: 800px;
+  border: 25px ;
+  padding: 25px;
+  margin: auto;
+  margin-top : 50px;
+  margin-bottom:  20px;
+  background-color: #ebebeb;
+}
+
+#button{
+    font-size: 120%;
+    border : none;
+    height: 50px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 300px;
+    color: #FFFFFF;
+    background-color: #16bbf2;
+    cursor: pointer;
+}

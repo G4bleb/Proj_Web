@@ -82,9 +82,7 @@ hr{
   float:left;
   margin-bottom: 5px;
 }
-#Telephone{
-  margin-left: 5px;
-}
+
 #phone{
   margin-left: 5px;
   float:left;
@@ -106,13 +104,12 @@ hr{
   height: 150px;
 }
 
-#button{
+#envoi{
     border : none;
     height: 50px;
     width: 200px;
     margin-top: 25px;
-    margin-left:400px;
-    font-size: 120%;
+    margin-left: 71%;
     color: #FFFFFF;
     background-color: #16bbf2;
     cursor: pointer;

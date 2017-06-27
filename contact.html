@@ -4,48 +4,48 @@
   <head>
     <meta charset="utf-8">
     <title> Assistance</title>
-     <link rel="stylesheet" type="text/css" href="contact.css">
-     <link href="style.css" rel="stylesheet" type="text/css"/>
-     <script type="text/javascript" src="jquery-3.2.1.js"></script>
-     <script type="text/javascript" src="contact.js"></script>
+     <link rel="stylesheet" type="text/css" href="styles/contact.css">
+     <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+     <script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+     <script type="text/javascript" src="scripts/contact.js"></script>
   </head>
   <body>
     <!-- DEBUT HEADER -->
-    <div id="header">
-      <div id="navbar">
-        <ul>
-          <li><a href="accueil.html">Accueil</a></li>
-          <li><a href="comparatif.html">Nos offres</a></li>
-          <li class="dropdown">
-            <a href="formations.html" class="dropbtn">Nos formations</a>
-            <div class="dropdown-content">
-              <a href="formations/formation-1.html">Formation 1</a>
-              <a href="formations/formation-2.html">Formation 2</a>
-              <a href="formations/formation-3.html">Formation 3</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="entreprise.html" class="dropbtn">L'entreprise</a>
-            <div class="dropdown-content">
-              <a href="entreprise/equipe.html">L'équipe</a>
-            </div>
-          </li>
-          <li><a href="contact.html">Nous contacter</a></li>
-          <li><a href="recherche.php">Recherche</a></li>
-          <li>
-            <ul id="networks">
-              <li><a href="http://www.twitter.com"><img src="icons/twitter.png" alt="twitter" class="icon"></a></li>
-              <li><a href="http://www.facebook.com"><img src="icons/facebook.png" alt="facebook" class="icon"></a></li>
-              <li><a href="http://www.linkedin.com"><img src="icons/linkedin.png" alt="linkedin" class="icon"></a></li>
-            </ul>
-          </li>
+<div id="header">
+  <div id="navbar">
+    <ul>
+      <li><a href="accueil.html">Accueil</a></li>
+      <li><a href="comparatif.html">Nos offres</a></li>
+      <li class="dropdown">
+        <a href="formations.html" class="dropbtn">Nos formations</a>
+        <div class="dropdown-content">
+          <a href="formations/formation-1.html">Formation 1</a>
+          <a href="formations/formation-2.html">Formation 2</a>
+          <a href="formations/formation-3.html">Formation 3</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="entreprise.html" class="dropbtn">L'entreprise</a>
+        <div class="dropdown-content">
+          <a href="entreprise/equipe.html">L'équipe</a>
+        </div>
+      </li>
+      <li><a href="contact.html">Nous contacter</a></li>
+      <li><a href="recherche.php">Recherche</a></li>
+      <li>
+        <ul id="networks">
+          <li><a href="http://www.twitter.com"><img src="img/icons/twitter.png" alt="twitter" class="icon"></a></li>
+          <li><a href="http://www.facebook.com"><img src="img/icons/facebook.png" alt="facebook" class="icon"></a></li>
+          <li><a href="http://www.linkedin.com"><img src="img/icons/linkedin.png" alt="linkedin" class="icon"></a></li>
         </ul>
-      </div>
-      <div id="banner">
-        <img src="banner.jpg" alt="banner">
-      </div>
-    </div>
-    <!-- FIN HEADER -->
+      </li>
+    </ul>
+  </div>
+  <div id="banner">
+    <img src="img/banner.jpg" alt="banner">
+  </div>
+</div>
+<!-- FIN HEADER -->
 
     <div id="assistance">
         <h1>Assistance</h1>
@@ -81,23 +81,23 @@
         <label id="Prenom">*Prénom :</label>
         <input type="text" id="fname"  name="fname">
         <div class="clear"></div>
-        <label id="Email">Adresse email :</label>
+        <label id="Email">*Adresse email :</label>
         <input type="text" id="mail" name="mail" >
         <label id="Telephone">Téléphone :</label>
         <input type="text" id="phone" name="phone">
         <div class="clear"></div>
         <label>Type de requète :</label>
         <select name="cars">
-          <option value="volvo">J'ai des problèmes techniques</option>
-          <option value="saab">J'ai une quesion par rapport à l'achat d'une formation</option>
-          <option value="fiat">Je souhaite modifier ma commande</option>
-          <option value="audi">Je souhaiterai être remboursé sur une de mes commandes</option>
+          <option value="1">J'ai des problèmes techniques</option>
+          <option value="2">J'ai une question par rapport à l'achat d'une formation</option>
+          <option value="3">Je souhaite modifier ma commande</option>
+          <option value="4">Je souhaiterai être remboursé</option>
         </select><br>
         <label id="object">Objet :</label>
         <input type="text" id="objet" name="objet" ><br><br>
-        <label id="Texte">Message :</label>
+        <label id="Texte">*Message :</label>
         <input type="text" id="message" name="message">
-        <input type="submit" id="envoi" value="envoie">
+        <input type="submit" id="envoi" value="Envoi">
       </form>
     </div>
     <div class="clear"></div>
@@ -105,4 +105,3 @@
       <a href="legal.html">Mentions légales</a>
     </div>
 </body>
-</html>

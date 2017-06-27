@@ -3,9 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-  	<link href="style.css" rel="stylesheet" type="text/css"/>
- 		<link href="recherche.css" rel="stylesheet" type="text/css"/>
-  	<link rel="icon" type="image/png" href="favicon.png"/>
+  	<link href="styles/style.css" rel="stylesheet" type="text/css"/>
+ 		<link href="styles/recherche.css" rel="stylesheet" type="text/css"/>
+  	<link rel="icon" type="image/png" href="img/favicon.png"/>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<meta name="generator" content="Geany 1.27" />
   	<title>Recherche</title>
@@ -36,15 +36,15 @@
 				<li><a href="recherche.php">Recherche</a></li>
 				<li>
 					<ul id="networks">
-						<li><a href="http://www.twitter.com"><img src="icons/twitter.png" alt="twitter" class="icon"></a></li>
-						<li><a href="http://www.facebook.com"><img src="icons/facebook.png" alt="facebook" class="icon"></a></li>
-						<li><a href="http://www.linkedin.com"><img src="icons/linkedin.png" alt="linkedin" class="icon"></a></li>
+						<li><a href="http://www.twitter.com"><img src="img/icons/twitter.png" alt="twitter" class="icon"></a></li>
+						<li><a href="http://www.facebook.com"><img src="img/icons/facebook.png" alt="facebook" class="icon"></a></li>
+						<li><a href="http://www.linkedin.com"><img src="img/icons/linkedin.png" alt="linkedin" class="icon"></a></li>
 					</ul>
 				</li>
 			</ul>
 		</div>
 		<div id="banner">
-			<img src="banner.jpg" alt="banner">
+			<img src="img/banner.jpg" alt="banner">
 		</div>
 	</div>
 	<!-- FIN HEADER -->
@@ -63,7 +63,7 @@
 
 
 
-<?php if(strtolower($_POST['recherche']) == 'html'): ?>
+<?php if(strtolower($_POST['recherche']) == 'cloud'): ?>
 <!-- Ici va s'afficher la liste des resultats pour le mot cle "html"
 	A adapter selon vos propres affichage de resultats -->
 
@@ -73,34 +73,35 @@
 		<td>Matière</td>
 		<td>Durée</td>
 		<td>Offre correspondante</td>
+		<td></td>
 	</tr>
 	<tr>
-		<td>Initiation</td>
-		<td>HTML</td>
+		<td>Home</td>
+		<td>Cloud</td>
 		<td>2h</td>
 		<td>FREE</td>
-		<td><a href="#">Consulter cette formation</a></td>
+		<td><a href="formations/formation-3.html">Consulter cette formation</a></td>
 	</tr>
 	<tr>
-		<td>Formation de base</td>
-		<td>HTML</td>
+		<td>WAN</td>
+		<td>Cloud</td>
 		<td>16h</td>
 		<td>PRO</td>
-		<td><a href="#">Consulter cette formation</a></td>
+		<td><a href="formations/formation-2.html">Consulter cette formation</a></td>
 	</tr>
 	<tr>
-		<td>Formation avancée</td>
-		<td>HTML</td>
+		<td>Entreprise</td>
+		<td>Cloud</td>
 		<td>16h</td>
 		<td>PRO</td>
-		<td><a href="#">Consulter cette formation</a></td>
+		<td><a href="formations/formation-1.html">Consulter cette formation</a></td>
 	</tr>
 	<tr>
-		<td>Formation expert</td>
-		<td>HTML</td>
-		<td>24h</td>
+		<td>Formateur</td>
+		<td>Cloud</td>
+		<td>formations/formation-3.html4h</td>
 		<td>PREMIUM</td>
-		<td><a href="#">Consulter cette formation</a></td>
+		<td><a href="formations/formation-4.html">Consulter cette formation</a></td>
 	</tr>
 </table>
 
@@ -108,7 +109,9 @@
 <!-- Ici va s'afficher la liste des resultats pour les autres recherche
 	=> il faut adapter le message pour pas de résultats  -->
 <table>
-	<td>Aucun résultat</td>
+	<tr>
+		<td>Aucun résultat</td>
+	</tr>
 </table>
 
 <?php endif; ?>
