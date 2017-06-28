@@ -119,6 +119,10 @@
 		<?php endif; ?>
 
 	</div>
+	<div class="clear"></div>
+	<div id="footer">
+		<a href="legal.html">Mentions légales</a>
+	</div>
 </body>
 
 </html>
