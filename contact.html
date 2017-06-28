@@ -1,108 +1,109 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <title> Assistance</title>
-     <link rel="stylesheet" type="text/css" href="styles/contact.css">
-     <link rel="stylesheet" type="text/css" href="styles/style.css"/>
-     <script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
-     <script type="text/javascript" src="scripts/contact.js"></script>
-  </head>
-  <body>
-    <!-- DEBUT HEADER -->
-<div id="header">
-  <div id="navbar">
-    <ul>
-      <li><a href="accueil.html">Accueil</a></li>
-      <li><a href="comparatif.html">Nos offres</a></li>
-      <li class="dropdown">
-        <a href="catalogue.html" class="dropbtn">Nos formations</a>
-        <div class="dropdown-content">
-          <a href="formations/formation-1.html">Formation 1</a>
-          <a href="formations/formation-2.html">Formation 2</a>
-          <a href="formations/formation-3.html">Formation 3</a>
-          <a href="formations/formation-4.html">Formation 4</a>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a href="entreprise.html" class="dropbtn">L'entreprise</a>
-        <div class="dropdown-content">
-          <a href="entreprise/equipe.html">L'équipe</a>
-        </div>
-      </li>
-      <li><a href="contact.html">Nous contacter</a></li>
-      <li><a href="recherche.php">Recherche</a></li>
-      <li>
-        <ul id="networks">
-          <li><a href="http://www.twitter.com"><img src="img/icons/twitter.png" alt="twitter" class="icon"></a></li>
-          <li><a href="http://www.facebook.com"><img src="img/icons/facebook.png" alt="facebook" class="icon"></a></li>
-          <li><a href="http://www.linkedin.com"><img src="img/icons/linkedin.png" alt="linkedin" class="icon"></a></li>
-        </ul>
-      </li>
-    </ul>
+<head>
+  <meta charset="utf-8">
+  <title> Assistance</title>
+  <link rel="stylesheet" type="text/css" href="styles/contact.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+  <script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="scripts/contact.js"></script>
+  <link rel="icon" type="image/png" href="img/favicon.png"/>
+</head>
+<body>
+  <!-- DEBUT HEADER -->
+  <div id="header">
+    <div id="navbar">
+      <ul>
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="comparatif.html">Nos offres</a></li>
+        <li class="dropdown">
+          <a href="catalogue.html" class="dropbtn">Nos formations</a>
+          <div class="dropdown-content">
+            <a href="formations/formation-1.html">Formation 1</a>
+            <a href="formations/formation-2.html">Formation 2</a>
+            <a href="formations/formation-3.html">Formation 3</a>
+            <a href="formations/formation-4.html">Formation 4</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="entreprise.html" class="dropbtn">L'entreprise</a>
+          <div class="dropdown-content">
+            <a href="entreprise/equipe.html">L'équipe</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Nous contacter</a></li>
+        <li><a href="recherche.php">Recherche</a></li>
+        <li>
+          <ul id="networks">
+            <li><a href="http://www.twitter.com"><img src="img/icons/twitter.png" alt="twitter" class="icon"></a></li>
+            <li><a href="http://www.facebook.com"><img src="img/icons/facebook.png" alt="facebook" class="icon"></a></li>
+            <li><a href="http://www.linkedin.com"><img src="img/icons/linkedin.png" alt="linkedin" class="icon"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div id="banner">
+      <img src="img/banner.jpg" alt="banner">
+    </div>
   </div>
-  <div id="banner">
-    <img src="img/banner.jpg" alt="banner">
-  </div>
-</div>
-<!-- FIN HEADER -->
+  <!-- FIN HEADER -->
 
-    <div id="assistance">
-        <h1>Assistance</h1>
-        <hr>
+  <div id="assistance">
+    <h1>Assistance</h1>
+    <hr>
 
-      <div id="aide">
-        <p>Besoin d'aide ? Vous trouverez peut-être ce dont vous avez besoin dans la section "Questions fréquemments posées" ci contre : </p>
-      </div>
-
-      <div id="FAQ">
-        <h2>FAQ</h2>
-        <hr>
-        <p>As abosolute is by amounted repeated ?</p>
-        <p>Talked vanity looked in to</p>
-        <p>Real sold in call. Invitation on an advantages collecting ?</p>
-      </div>
-      <div class="clear"></div>
-
+    <div id="aide">
+      <p>Besoin d'aide ? Vous trouverez peut-être ce dont vous avez besoin dans la section "Questions fréquemments posées" ci contre : </p>
     </div>
 
-    <div id="contact">
-      <h1>Contact</h1>
+    <div id="FAQ">
+      <h2>FAQ</h2>
       <hr>
-      <p>* : Champs obligatoires</p>
-      <form id="gender">
+      <p>As abosolute is by amounted repeated ?</p>
+      <p>Talked vanity looked in to</p>
+      <p>Real sold in call. Invitation on an advantages collecting ?</p>
+    </div>
+    <div class="clear"></div>
+
+  </div>
+
+  <div id="contact">
+    <h1>Contact</h1>
+    <hr>
+    <p>* : Champs obligatoires</p>
+    <form id="gender">
       <input type="radio" name="gender" value="Homme" > Homme
       <input type="radio" name="gender" value="Femme"> Femme
       <input type="radio" name="gender" value="idk" checked> Non Spécifié
     </form>
-      <form>
-        <label id="Nom">*Nom :</label>
-        <input type="text"  id="lname" name="lname">
-        <label id="Prenom">*Prénom :</label>
-        <input type="text" id="fname"  name="fname">
-        <div class="clear"></div>
-        <label id="Email">*Adresse email :</label>
-        <input type="text" id="mail" name="mail" >
-        <label id="Telephone">Téléphone :</label>
-        <input type="text" id="phone" name="phone">
-        <div class="clear"></div>
-        <label>Type de requète :</label>
-        <select name="cars">
-          <option value="1">J'ai des problèmes techniques</option>
-          <option value="2">J'ai une question par rapport à l'achat d'une formation</option>
-          <option value="3">Je souhaite modifier ma commande</option>
-          <option value="4">Je souhaiterai être remboursé</option>
-        </select><br>
-        <label id="object">Objet :</label>
-        <input type="text" id="objet" name="objet" ><br><br>
-        <label id="Texte">*Message :</label>
-        <input type="text" id="message" name="message">
-        <input type="submit" id="envoi" value="Envoi">
-      </form>
-    </div>
-    <div class="clear"></div>
-    <div id="footer">
-      <a href="legal.html">Mentions légales</a>
-    </div>
+    <form>
+      <label id="Nom">*Nom :</label>
+      <input type="text"  id="lname" name="lname">
+      <label id="Prenom">*Prénom :</label>
+      <input type="text" id="fname"  name="fname">
+      <div class="clear"></div>
+      <label id="Email">*Adresse email :</label>
+      <input type="text" id="mail" name="mail" >
+      <label id="Telephone">Téléphone :</label>
+      <input type="text" id="phone" name="phone">
+      <div class="clear"></div>
+      <label>Type de requète :</label>
+      <select name="cars">
+        <option value="1">J'ai des problèmes techniques</option>
+        <option value="2">J'ai une question par rapport à l'achat d'une formation</option>
+        <option value="3">Je souhaite modifier ma commande</option>
+        <option value="4">Je souhaiterai être remboursé</option>
+      </select><br>
+      <label id="object">Objet :</label>
+      <input type="text" id="objet" name="objet" ><br><br>
+      <label id="Texte">*Message :</label>
+      <input type="text" id="message" name="message">
+      <input type="submit" id="envoi" value="Envoi">
+    </form>
+  </div>
+  <div class="clear"></div>
+  <div id="footer">
+    <a href="legal.html">Mentions légales</a>
+  </div>
 </body>
